@@ -1,0 +1,28 @@
+// declaring a class with constructor
+class example {
+  /* a constructor name should be same as class name
+  and it is declared with func keyword like function */
+  func example(value)
+  {
+    showln value
+  }
+}
+
+// calling a class with an object
+obj = new example("Hello, World!")
+
+
+
+// declaring a class with a function
+class example2 {
+  func example(value)
+  {
+    showln value
+  }
+}
+
+// calling a class with an object
+obj = new example("Hello, World!")
+
+// calling inner function of class with object of class
+obj.example("test")
