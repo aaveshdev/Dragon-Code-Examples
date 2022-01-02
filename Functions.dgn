@@ -1,0 +1,33 @@
+// declaring a function with name "myFunc"
+func myFunc()
+{
+  showln "Hello from Dragon"
+}
+
+
+// calling function "myFunc"
+myFunc()
+
+
+// declaring a function with parameters
+func add(a,b)
+{
+  showln a+b
+}
+
+
+// calling a function with parameters
+add(20,30)
+
+
+// declaring a return type function
+func newFunc()
+{
+   return "Hello"
+}
+
+
+// calling a return type function
+val = newFunc()
+
+
